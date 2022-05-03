@@ -6,3 +6,9 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+@store3 = Store.find(3)
+#destroy(id) public
+@store3 = Store.destroy(3)
+
+puts Store.count
+# store count should now be 2
